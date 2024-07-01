@@ -1,19 +1,15 @@
 // import { useState } from 'react'
 import './App.css'
+import ItemContainer from './components/Items/ItemListContainer.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
       <Navbar/>
-      
+      <ItemContainer greeting={'¡Bienvenidos a Midier!'}/>
 
-
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
     </>
   )
 }

@@ -20,12 +20,11 @@ input, textarea, button, select{
 :root{
     --primary-font: 'Crimson Text', Verdana, Geneva, Tahoma, sans-serif;
     --secondary-font: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
-    --primary-color-1: #000000;
-    --primary-color-2: #ffffff;
-    --secondary-color-1: #00ff00;
-    --secondary-color-2: #ff00ff;
-    --secondary-color-3: #00ffff;
-    --secondary-color-4: #ffff00;
+    --primary-color-1: #ffd1dc;
+    --primary-color-2: #ff809f;
+    --secondary-color-1: #9e6b97;
+    --secondary-color-2: #946d9e;
+    --secondary-color-3: #ffffff;
   
 }
 

@@ -1,0 +1,15 @@
+.itemContainer{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemGreeting{
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+    color: var(--primary-color-2);
+}
