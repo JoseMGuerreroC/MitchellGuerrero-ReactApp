@@ -1,0 +1,312 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroVideo {
+    height: calc(100vh - 70px);
+    object-fit: cover;
+    width: 100%;
+}
+
+.heroTitle {
+    position: absolute;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    -webkit-text-stroke: 1px var(--primary-color-2);
+    color: transparent;
+}
+
+.heroOfertas {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    color: var(--primary-color-2);
+    margin: 5px;
+}
+
+.tituloCategoria{
+    color: var(--primary-color-2);
+    font-size: 20px;
+}
+
+.productosTitle {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: var(--primary-color-2);
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.dataCont {
+    width: 100%;
+    border-top: 2px solid var(--primary-color-2);
+    border-bottom: 2px solid var(--primary-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.dataCont .numberItems {
+    color: var(--primary-color-2);
+    font-size: 15px;
+    font-family: var(--secondary-font)
+}
+
+.productosCont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productosCont .itemCatalog {
+    width: 280px;
+    height: auto;
+    background: var(--secondary-color-3);
+    margin: 0px 5px 10px 5px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.itemCatalog img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    justify-self: center;
+    
+}
+
+.itemCatalog .itemCatalogTitulo {
+    font-size: 15px;
+    font-family: var(--primary-font);
+    color: var(--primary-color-2);
+    font-weight: 700;
+    margin: 0 0 5px 0px;
+
+}
+
+.itemCatalog .itemCatalogNombre {
+    font-size: 12px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color-2);
+}
+
+.itemCatalog .itemCatalogPrecio {
+    font-size: 15px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color-2);
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.itemCatalog .itemCatalogOfertas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemCatalog .itemCatalogPrecio.precioAnterior {
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 100;
+    opacity: 70%;
+    margin-left: 5px;
+}
+
+.itemCatalog .itemCatalogPrecio.precioNuevo {
+    font-size: 15px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color-1);
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.itemCatalog .itemCatalogDescuento{
+    top: 0;
+    right: 0;
+    width:  45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color-2);
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.itemContainer{
+    width: 100%;
+    padding: 0 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemImgContainer{
+    max-width: 50%;
+    width: 50%;
+    min-width: 30%;
+    display: flex;
+    height: 700px;
+}
+
+.itemImgOptions{
+    height: 100%;
+    width: 20%;
+    overflow-y: scroll;
+}
+
+.itemImgOptions img{
+    width: 100%;
+    height: 25%;
+    padding: 1.5px;
+    object-fit: cover;
+}
+
+.itemImgMain{
+    width: 80%;
+    object-fit: cover;
+    padding: 1.5px;
+}
+
+.itemDescriptionContainer{
+    max-width: 50%;
+    width: 50%;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+.itemDescriptionContainer .itemRoute{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 5px;
+}
+
+.itemDescriptionContainer .itemRoute .route{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    color: var(--primary-color-2);
+}
+
+.itemDescriptionContainer .itemRoute .route.routeDisabled{
+    color: var(--secondary-color-2);
+    opacity: 60%;
+}
+
+.itemDescriptionContainer .itemTitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--primary-color-2);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+
+.itemDescriptionContainer .itemBrand{
+    margin-bottom: 10px;
+    color: var(--primary-color-2);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+
+.itemDescriptionContainer .itemPrecio{
+    color: var(--primary-color-2);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+
+.itemDescriptionContainer .itemOferta{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.itemDescriptionContainer .itemDescuento{
+    height: 40px;
+    width: 55px;
+    background: red;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color-2);
+    font-weight: 700;
+    font-family: var(--primary-font);
+}
+
+.itemDescriptionContainer .itemOferta .itemPrecio.precioNuevo{
+    color: var(--secondary-color-1);
+}
+
+.itemDescriptionContainer .itemOferta .itemPrecio.precioAnterior{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+.itemDescriptionContainer .itemToCart{
+    display: flex;
+    border: 2px solid var(--primary-color-2);
+}
+
+.itemDescriptionContainer .itemToCart .amountToCart{
+    display: flex;
+    
+}
+.itemDescriptionContainer .itemToCart .amountToCart button{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: none;
+    color: var(--primary-color-2);
+    border: none;
+}
+
+.itemDescriptionContainer .itemToCart .amountToCart p{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    color: var(--primary-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemDescriptionContainer .itemToCart .addToCart{
+    width: 240px;
+    color: var(--primary-color-2);
+    background: transparent;
+    font-family: var(--primary-font);
+    border: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+

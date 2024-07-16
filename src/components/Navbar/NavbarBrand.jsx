@@ -1,5 +1,6 @@
 import { SplitText } from '../../assets/gsap/splitText.js';
 import { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function NavbarBrand() {
     const navIcon = useRef(null);
@@ -15,7 +16,6 @@ function NavbarBrand() {
 
     function hoverBrand(hover) {
         if (!hoverTl) {
-
             hoverTl = gsap.timeline();
             hoverTl.to(split.chars, { color: '#ff00ff', stagger: 0.05 })
                 .add('pointResizes')
@@ -39,10 +39,10 @@ function NavbarBrand() {
     }
 
     return (
-        <a href='#' className='navMenuBrand' onMouseEnter={() => hoverBrand(true)} onMouseLeave={() => hoverBrand(false)}>
+        <NavLink to={"/"} className={`navMenuBrand ${({isActive}) => isActive ? 'active' : '' }`} onMouseEnter={() => hoverBrand(true)} onMouseLeave={() => hoverBrand(false)}>
             <p ref={navIcon}>Midier</p>
             <div ref={navPoint} className="navMenuPoint"></div>
-        </a>
+        </NavLink>
     )
 }
 

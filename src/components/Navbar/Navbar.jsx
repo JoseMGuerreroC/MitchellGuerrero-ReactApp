@@ -1,18 +1,26 @@
 import './Style.css'
-
+import { NavLink} from 'react-router-dom';
 import UserCart from './CartWidget.jsx';
 import NavbarBrand from './NavbarBrand.jsx';
+import { useEffect} from 'react';
 
 function Navbar() {
+
+    function ActiveLink({ isActive }) {
+        return `navMenuLink ${isActive ? 'active' : ''}`
+    };
+
     return (
         <>
             <nav className='nav'>
                 <div className='navMenu'>
                     <NavbarBrand></NavbarBrand>
                     <div className='navMenuItems'>
-                        <a href='#'>Maquillaje</a>
-                        <a href='#'>Cuidado de la piel</a>
-                        <a href='#'>Ofertas</a>
+                        <NavLink to={"/"} className={ActiveLink}>inicio</NavLink>
+                        <NavLink to={"/categorias/maquillaje"} className={ActiveLink}>maquillaje</NavLink>
+                        <NavLink to={"/categorias/cuidado-de-la-piel"} className={ActiveLink}>cuidado de la piel</NavLink>
+                        <NavLink to={"/categorias"} className={ActiveLink} end>categorias</NavLink>
+                        <NavLink to={"/ofertas"} className={ActiveLink}>ofertas</NavLink>
                     </div>
                 </div>
                 <div className='navUser'>

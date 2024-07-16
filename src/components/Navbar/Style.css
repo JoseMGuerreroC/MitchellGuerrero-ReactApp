@@ -1,11 +1,14 @@
 .nav {
-    max-width: 100%;
+    width: 100%;
     height: 70px;
-    background: var(--primary-color-1);
-    margin: 0 15px;
-    border-bottom: 2px solid var(--primary-color-2);
+    background: transparent;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--primary-color-1);
+    z-index: 100;
 }
 
 .navMenu {
@@ -19,6 +22,11 @@
     align-items: flex-end;
     margin-right: 10px;
     text-decoration: none;
+}
+
+.navMenuBrand.active {
+    cursor: default;
+    user-select: none;
 }
 
 .navMenuBrand p {
@@ -38,16 +46,25 @@
 }
 
 .navMenuItems{
-    border-left: 2px solid var(--secondary-color-2);
+    border-left: 2px solid var(--primary-color-2);
 }
 
-.navMenuItems a{
+.navMenuItems .navMenuLink{
     font-size: 15px;
     color: var(--primary-color-2);
     font-family: var(--secondary-font);
     text-decoration: none;
     margin: 10px;
 
+}
+
+.navMenuItems .navMenuLink.active{
+    font-weight: 600;
+    text-decoration: line-through;
+    user-select: none;
+    cursor: default;
+    pointer-events: none;
+    color: var(--secondary-color-2);
 }
 
 .navUser{

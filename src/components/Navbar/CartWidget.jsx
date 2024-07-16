@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 function UserCart(){
     return(
         <>
-            <a href="#" className='userCart'>
+            <Link to={"/carrito"} className='userCart'>
                 <i className="fa-solid fa-cart-shopping"></i>
                 <div className="userCartNot">10</div>      
-            </a>
+            </Link>
         </>
     )
 }
