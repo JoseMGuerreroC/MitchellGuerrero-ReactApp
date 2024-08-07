@@ -1,23 +1,14 @@
-import { useEffect, useState } from "react";
+import { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
+import { ProductsContext } from "../ProductsContext/ProductsContext";
 import './Style.css';
 
+
 function ItemList() {
-    const [products, setProducts] = useState([]);
+    const {products, loading} = useContext(ProductsContext)
     const { idCategoria } = useParams();
 
-    useEffect(() => {
-        fetch("/src/components/Pages/Productos.json")
-            .then(response => response.json())
-            .then(data => {
-                if (!idCategoria) {
-                    setProducts(data)
-                } else {
-                    setProducts(data.filter(item => (item.categoria == idCategoria)))
-                }
-            })
-            .catch(error => console.log(error))
-    })
+    const filteredProducts = idCategoria ? products.filter(product => product.categoria === idCategoria) : products;
 
     function itemDescuento(precio, descuento){
         return Number.parseFloat(precio - ((precio / 100) * descuento)).toFixed(2) ;
@@ -29,6 +20,10 @@ function ItemList() {
         }else{
             return titulo.toUpperCase();
         }
+    }
+
+    if(loading){
+        return <div className="loadProducts">Loading...</div>;
     }
 
     return (
@@ -48,10 +43,10 @@ function ItemList() {
                 </>
             )}
             <div className="dataCont">
-                <p className="numberItems">{products.length} productos</p>
+                <p className="numberItems">{filteredProducts.length} productos</p>
             </div>
             <div className="productosCont">
-                {products.map(item => (
+                {filteredProducts.map(item => (
                     <Link to={`/item/${item.id}`} key={item.id} className="itemCatalog">
                         {
                             <>

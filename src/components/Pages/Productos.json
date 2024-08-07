@@ -1,5 +1,5 @@
 [
-    {"id": 1,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Soft'lit Naturally Luminous Longwear",
     "tipo": "base",
@@ -8,9 +8,10 @@
     "precio": 900.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwa530989c/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/FENTY/FENTY%202/840026670982_SPR24_T2PRODUCT_SILO_SOFT%E2%80%99LIT_LUMINOUS_LUMINOUS_110_sRGB72.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 10
     },
-    {"id": 2,
+    {
     "marca": "Glossier",
     "nombre": "Stretch Foundation",
     "tipo": "base",
@@ -19,9 +20,10 @@
     "precio": 830.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw6e5d1ea3/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/810086255320_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 10
+    "descuento": 10,
+    "stock": 34
     },
-    {"id": 3,
+    {
     "marca": "Clinique",
     "nombre": "Anti-Blemish Solutions Liquid Makeup",
     "tipo": "base",
@@ -30,9 +32,10 @@
     "precio": 799.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw2bc1d8db/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/CLINIQUE/192333175507_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 45
     },
-    {"id": 4,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Botf Eaze Drop'lit All Over Glow Enhancer Travel Size",
     "tipo": "base",
@@ -41,9 +44,10 @@
     "precio": 490.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw5aab6a94/images/hi-res/boletos/Azul/FENTY/840026655477%20_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 12
     },
-    {"id": 5,
+    {
     "marca": "Sephora Collection",
     "nombre": "Best Skin Ever Matte Powder Foundation",
     "tipo": "base",
@@ -52,9 +56,10 @@
     "precio": 380.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwe357850e/images/hi-res/boletos/Azul/SEPHORA%20COLLECTION/3378872222996_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 15
+    "descuento": 15,
+    "stock": 10
     },
-    {"id": 6,
+    {
     "marca": "Laura Mercier",
     "nombre": "Pure Canvas Primer Hydrating",
     "tipo": "primer",
@@ -63,9 +68,10 @@
     "precio": 655.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwf3c7362a/images/hi-res/boletos/LUIS%20MOYA/LAURA%20MERCIER/194250068078_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 50
+    "descuento": 50,
+    "stock": 67
     },
-    {"id": 7,
+    {
     "marca": "Dior",
     "nombre": "Dior Forever Glow Veil",
     "tipo": "primer",
@@ -74,9 +80,10 @@
     "precio": 1280.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwc20e7fbc/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/DIOR/3348901630481_1.jpg?sw=1200&sh=1200&sm=fit",
     "oferta": true,
-    "descuento": 5
+    "descuento": 5,
+    "stock": 1
     },
-    {"id": 8,
+    {
     "marca": "Dior",
     "nombre": "Dior Forever Velvet Veil",
     "tipo": "primer",
@@ -85,9 +92,10 @@
     "precio": 1280.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw0257898c/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/DIOR/3348901630474_1.jpg?sw=1200&sh=1200&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 67
     },
-    {"id": 9,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Demi'Glow Highlighter",
     "categoria": "maquillaje",
@@ -96,9 +104,10 @@
     "precio": 885.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw604627d3/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/FENTY/840026666763_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 6
     },
-    {"id": 10,
+    {
     "marca": "MAC Cosmetics",
     "nombre": "Glow Play Cushiony Blush",
     "categoria": "maquillaje",
@@ -107,9 +116,10 @@
     "precio": 779.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw6e3771d6/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/MAC/MACBLUSH%20Y%20LABIAL/773602686247.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 4
+    "descuento": 4,
+    "stock": 8
     },
-    {"id": 11,
+    {
     "marca": "HUDA Beauty",
     "nombre": "Blush Filter",
     "categoria": "maquillaje",
@@ -118,9 +128,10 @@
     "precio": 650.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwb681e925/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/HUDA%20BEAUTY/6294018405726_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 100
     },
-    {"id": 12,
+    {
     "marca": "Rare Beauty",
     "nombre": "Soft Pich Luminous Powder Blush",
     "categoria": "maquillaje",
@@ -129,9 +140,10 @@
     "precio": 665.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwe8d77fca/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/RARE%20BEAUTY/840122906596_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 20
+    "descuento": 20,
+    "stock": 3
     },
-    {"id": 13,
+    {
     "marca": "NARS",
     "nombre": "Afterglow Liquid Blush",
     "categoria": "maquillaje",
@@ -140,9 +152,10 @@
     "precio": 820.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw4344076c/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/NARS/LANZAMIENTOS%20AGOSTO/194251146003_x1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 10
     },
-    {"id": 14,
+    {
     "marca": "NARS",
     "nombre": "Light Reflecting Cheek Palette",
     "categoria": "maquillaje",
@@ -151,9 +164,10 @@
     "precio": 1530.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwcf50ac3c/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/NARS/ALTAS%20HOLIDAY/194251141343_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 9
     },
-    {"id": 15,
+    {
     "marca": "Sephora Collection",
     "nombre": "Colorful Mono-24 New Effect",
     "categoria": "maquillaje",
@@ -162,9 +176,10 @@
     "precio": 200.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw03dd00a6/images/hi-res/boletos/Paulina%20Santiago/SEPHORA%20COLLECTION/COLORFUL%20MONO/3378872201014-CELESTIAL1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 10
+    "descuento": 10,
+    "stock": 34
     },
-    {"id": 16,
+    {
     "marca": "Too Faced",
     "nombre": "Born This Way Nudes",
     "categoria": "maquillaje",
@@ -173,9 +188,10 @@
     "precio": 800.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwa0a0ab70/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/TOO%20FACED/651986018864_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 5
+    "descuento": 5,
+    "stock": 34
     },
-    {"id": 17,
+    {
     "marca": "Givenchy",
     "nombre": "I'interdit Couture Volume",
     "categoria": "maquillaje",
@@ -184,9 +200,10 @@
     "precio": 710.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwb36b0114/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GIVENCHY/GIVENCHY%201/3274872464353_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 18,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Le Glitty Lid Bronze",
     "categoria": "maquillaje",
@@ -195,9 +212,10 @@
     "precio": 530,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwa0a502fa/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/FENTY/FENTY%202/840026673716%20PRODUCT.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 19,
+    {
     "marca": "Glossier",
     "nombre": "Pro-tip Long-wearing Liquid Eyeliner",
     "categoria": "maquillaje",
@@ -206,9 +224,10 @@
     "precio": 480.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw38484270/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/GLOSSIER%20MAKEUP/812459025912_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 20,
+    {
     "marca": "Glossier",
     "nombre": "Monochromes Essential Eyeshadow Trio Palette",
     "categoria": "maquillaje",
@@ -217,9 +236,10 @@
     "precio": 540.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwcb508b0a/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/GLOSSIER%20MAKEUP/812459027831_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 10
+    "descuento": 10,
+    "stock": 34
     },
-    {"id": 21,
+    {
     "marca": "Glossier",
     "nombre": "Lidstar Long-wearing Shimmer Cream Eyeshadow",
     "categoria": "maquillaje",
@@ -228,9 +248,10 @@
     "precio": 460.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwd693e306/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/812459029965_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 22,
+    {
     "marca": "Yves Saint Laurent",
     "nombre": "Loveshine",
     "categoria": "maquillaje",
@@ -239,9 +260,10 @@
     "precio": 890.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw0ead1a7a/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/YVEST%20LAURENT/YSL%202024/3614274132687_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 23,
+    {
     "marca": "Urban Decay",
     "nombre": "Vice Lip Bond",
     "categoria": "maquillaje",
@@ -250,9 +272,10 @@
     "precio": 590.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwea9b9a9c/images/hi-res/boletos/Azul/URBAN%20DECAY/3605972889430_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 24,
+    {
     "marca": "Benefit Cosmetics",
     "nombre": "Plushtint Velvet",
     "categoria": "maquillaje",
@@ -261,9 +284,10 @@
     "precio": 520.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw6cd3210a/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/BENEFIT/BENEFIT%201/602004149046_X1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 4
+    "descuento": 4,
+    "stock": 34
     },
-    {"id": 25,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Roblox Gloss Bomb",
     "categoria": "maquillaje",
@@ -272,9 +296,10 @@
     "precio": 485.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwdcf1e99d/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/FENTY/FENTY%202/840026676335_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 26,
+    {
     "marca": "Dior",
     "nombre": "Dior Addict Lip Maximizer",
     "categoria": "maquillaje",
@@ -283,9 +308,10 @@
     "precio": 910.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw026103f8/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/DIOR/3348901636025_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 27,
+    {
     "marca": "Fenty Beauty",
     "nombre": "Trace'd Out Pencil Lip Liner",
     "categoria": "maquillaje",
@@ -294,9 +320,10 @@
     "precio": 445.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw3f175a56/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/FENTY/FENTY%203/840026668750_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 28,
+    {
     "marca": "Natasha Denona",
     "nombre": "Golden  Glimmer Gloss Shimmering Lip-Plumper",
     "categoria": "maquillaje",
@@ -305,9 +332,10 @@
     "precio": 725.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwe65ad028/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/NATASHA%20DENONA/7290113705708-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 90
+    "descuento": 90,
+    "stock": 34
     },
-    {"id": 29,
+    {
     "marca": "Guerlain",
     "nombre": "Kisskiss Bee Glow",
     "categoria": "maquillaje",
@@ -316,9 +344,10 @@
     "precio": 870.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwc522ca7e/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GUERLAIN/GUERLAIN%201/3346470440906_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 30,
+    {
     "marca": "Glossier",
     "nombre": "Lidstar Long-wearing Shimmer Cream Eyeshadow",
     "categoria": "maquillaje",
@@ -327,9 +356,10 @@
     "precio": 460.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwd693e306/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/812459029965_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 31,
+    {
     "marca": "Isdin",
     "nombre": "Isdinceutics Retinal Intense",
     "categoria": "cuidado-de-la-piel",
@@ -337,9 +367,10 @@
     "precio": 1552.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw36e25fc8/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/ISDIN/ISDIN%203/8429420260979-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 10
+    "descuento": 10,
+    "stock": 34
     },
-    {"id": 32,
+    {
     "marca": "Estee Lauder",
     "nombre": "Nutritious Booster Drops",
     "categoria": "cuidado-de-la-piel",
@@ -347,9 +378,10 @@
     "precio": 870.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw2e888da1/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/EST%C3%89E%20LAUDER/887167684164_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 33,
+    {
     "marca": "Glossier",
     "nombre": "Super Glow Vitamin C Brightening Face Serum",
     "categoria": "cuidado-de-la-piel",
@@ -357,9 +389,10 @@
     "precio": 785.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw03dbffec/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/GLOSSIER%20SKINCARE/812459026193_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 34,
+    {
     "marca": "MAC Cosmetics",
     "nombre": "Hyper Real Serumizer Skin Balancing Hydratation Serum",
     "categoria": "cuidado-de-la-piel",
@@ -367,9 +400,10 @@
     "precio": 1649.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw912268cf/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/MAC/773602705535.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 35,
+    {
     "marca": "Nudestix",
     "nombre": "Nude Glow Peptide Serum",
     "categoria": "cuidado-de-la-piel",
@@ -377,9 +411,10 @@
     "precio": 1500.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw511d1bf0/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/NUDESTIX/NUDESTIX%20DICIEMBRE/839174014939_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 10
+    "descuento": 10,
+    "stock": 34
     },
-    {"id": 36,
+    {
     "marca": "Isdin",
     "nombre": "Isdinceutics A.G.E Reverse Day",
     "categoria": "cuidado-de-la-piel",
@@ -387,9 +422,10 @@
     "precio": 1834.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw8e678835/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/ISDIN/ISDIN%203/8470001812353-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 15
+    "descuento": 15,
+    "stock": 34
     },
-    {"id": 37,
+    {
     "marca": "Isdin",
     "nombre": "Acniben Control de Brillos y Granos Gel Crema Facial",
     "categoria": "cuidado-de-la-piel",
@@ -397,9 +433,10 @@
     "precio":  704.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwfa126b22/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/ISDIN/ISDIN%202/8470003245920-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 38,
+    {
     "marca": "Glossier",
     "nombre": "Priming Moisturizer Rich Face Cream With Ceramides",
     "categoria": "cuidado-de-la-piel",
@@ -407,9 +444,10 @@
     "precio": 860.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw48b3603c/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/GLOSSIER/GLOSSIER%20SKINCARE/810086253777_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 39,
+    {
     "marca": "Isdin",
     "nombre": "Acniben Limpiador Matificante Para Piel Grasa Gel",
     "categoria": "cuidado-de-la-piel",
@@ -417,9 +455,10 @@
     "precio": 492.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw809f5ba4/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/ISDIN/ISDIN%202/8429420227606-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 6
+    "descuento": 6,
+    "stock": 34
     },
-    {"id": 40,
+    {
     "marca": "Tonymoly",
     "nombre": "Wonder Apricot Deep Cleansing Oil",
     "categoria": "cuidado-de-la-piel",
@@ -427,9 +466,10 @@
     "precio": 399.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw77f0de42/images/hi-res/boletos/Paulina%20Santiago/TONYMOLY/8806194016276-tonymoly.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 41,
+    {
     "marca": "Isdin",
     "nombre": "Acniben Mascarilla Facial Purificante",
     "categoria": "cuidado-de-la-piel",
@@ -437,9 +477,10 @@
     "precio": 511.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw34de3b04/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/ISDIN/ISDIN%202/8429420236769-1.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 42,
+    {
     "marca": "Dr. Jart+",
     "nombre": "Vital Hydra Solution Pro Glow Face Mask With Hyaluronic Acid",
     "categoria": "cuidado-de-la-piel",
@@ -447,9 +488,10 @@
     "precio": 270.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw37fb0d87/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/D.%20JART/8809844995112_0.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 43,
+    {
     "marca": "Caudalie",
     "nombre": "Vinoperfect Micropeeling",
     "categoria": "cuidado-de-la-piel",
@@ -457,9 +499,10 @@
     "precio": 850.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw305c9c94/images/hi-res/boletos/LUIS%20MOYA/CAUDALIE/3522930004318_1.7.png?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     },
-    {"id": 44,
+    {
     "marca": "The Ordinary",
     "nombre": "Lactid Acid 10% + Ha 2%",
     "categoria": "cuidado-de-la-piel",
@@ -467,9 +510,10 @@
     "precio": 255.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwf47d4adf/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/THE%20ORDINARY/769915190373_1.jpg?sw=400&sh=400&sm=fit",
     "oferta": true,
-    "descuento": 5
+    "descuento": 5,
+    "stock": 34
     },
-    {"id": 45,
+    {
     "marca": "Clarins",
     "nombre": "Velvet Cleansing Milk",
     "categoria": "cuidado-de-la-piel",
@@ -477,10 +521,7 @@
     "precio": 720.00,
     "imagen": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw7e6d79e2/images/hi-res/boletos/Roc%C3%ADo%20Mart%C3%ADnez/CLARINS/3380810378795_3.jpg?sw=400&sh=400&sm=fit",
     "oferta": false,
-    "descuento": 0
+    "descuento": 0,
+    "stock": 34
     }
-
-    
-
-
 ]

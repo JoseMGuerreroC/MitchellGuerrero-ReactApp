@@ -1,0 +1,59 @@
+.itemToCart{
+    display: flex;
+    border: 2px solid var(--primary-color-2);
+}
+
+.itemToCart .amountToCart{
+    display: flex;
+    
+}
+.itemToCart .amountToCart button{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: none;
+    color: var(--primary-color-2);
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.itemToCart .amountToCart button.remove:hover{
+    background: red;
+}
+
+.itemToCart .amountToCart button.add:hover{
+    background: green;
+}
+
+.itemToCart .amountToCart p{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    color: var(--primary-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemToCart .addToCart{
+    width: 240px;
+    color: var(--primary-color-2);
+    background: transparent;
+    font-family: var(--primary-font);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.itemToCart .addToCart:hover{
+    background: var(--secondary-color-2);
+}
+
+.itemStock{
+    font-family: var(--secondary-font);
+    color: var(--primary-color-2);
+    margin: 15px 0;
+    font-size: 15px;
+}

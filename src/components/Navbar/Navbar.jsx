@@ -19,7 +19,6 @@ function Navbar() {
                         <NavLink to={"/"} className={ActiveLink}>inicio</NavLink>
                         <NavLink to={"/categorias/maquillaje"} className={ActiveLink}>maquillaje</NavLink>
                         <NavLink to={"/categorias/cuidado-de-la-piel"} className={ActiveLink}>cuidado de la piel</NavLink>
-                        <NavLink to={"/categorias"} className={ActiveLink} end>categorias</NavLink>
                         <NavLink to={"/ofertas"} className={ActiveLink}>ofertas</NavLink>
                     </div>
                 </div>
